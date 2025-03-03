@@ -1,3 +1,4 @@
+// London Section
 function getLondonInfo() {
   let openCityInfoLondon = document.getElementById('tab1-content');
   openCityInfoLondon.classList.remove('d-none');
@@ -19,6 +20,7 @@ function getLondonInfo() {
   buttonThreeDisabledBackgroundColor.classList.remove('bg-secondary', 'text-white');
 }
 
+// Paris Section
 function getParisInfo() {
   let openCityInfoParis = document.getElementById('tab2-content');
   openCityInfoParis.classList.remove('d-none');
@@ -40,6 +42,7 @@ function getParisInfo() {
   buttonThreeDisabledBackgroundColor.classList.remove('bg-secondary', 'text-white');
 }
 
+// Tokyo Section
 function getTokyoInfo() {
   let openCityInfoTokyo = document.getElementById('tab3-content');
   openCityInfoTokyo.classList.remove('d-none');
